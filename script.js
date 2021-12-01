@@ -1,6 +1,5 @@
 let regExp = /^[\w\s]{2,15}$/;
 
-let btn = document.getElementById('applyButton');
 let ul = document.getElementById('listUl');
 let input = document.getElementById('inputText');
 let form = document.getElementById('form');
@@ -37,6 +36,7 @@ function addListButton(t) {
     let deleteButton = document.createElement('button');
     deleteButton.innerText = 'Delete';
     deleteButton.classList.add('deleteButton');
+    
     li.appendChild(deleteButton);
 
     return li;
