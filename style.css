@@ -1,0 +1,30 @@
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 0);
+    width: 25%;
+}
+
+.valid {
+    border: 2px solid rgb(0, 255, 76);
+    color: rgb(25, 146, 61);
+    box-shadow: none;
+}
+
+.invalid {
+    border: 2px solid rgb(182, 3, 3);
+    color: rgb(182, 3, 3);
+    box-shadow: none;
+}
+
+.background {
+    background: rgb(0, 255, 76);
+}
+
+
+.none {
+    border: 2px solid rgb(0, 0, 0);
+}
